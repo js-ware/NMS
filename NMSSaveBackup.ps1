@@ -11,6 +11,11 @@
   Author:         Jason Ware
   Creation Date: 4 Feb 2022
   Purpose/Change: Initial script development
+  Run this to allow execution:
+    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+  
+  Run this to remove execution permissions:
+    Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope CurrentUser
   
 .EXAMPLE
   .\NMSSaveBackup.ps1
